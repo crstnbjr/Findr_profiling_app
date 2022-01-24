@@ -1,0 +1,451 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex; 
+  flex: auto;
+  flex-wrap: wrap;
+  font-family: 'SF Pro Display';
+  background-color: white;
+  flex: 90%;
+  width: 100%;
+  height: 80px;
+  font-size: 18px;
+}
+
+#logo-text {
+  width: 190px;
+  height: 65px;
+  margin: 9px 19px 10px;
+}
+
+#logo1 {
+  margin-left: 20px;
+  width: 65px;
+  height: 100%;
+  margin-right: 29%;
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+
+.container-1 {
+  padding-top: 1.2%;
+  padding-right: 0%;
+  margin-left: 16%;
+  flex: 5%;
+  text-align: right;
+}
+
+#userprof {
+  width: 6%;
+  padding: 1% 1% 0.5%;
+  margin-right: 1%;
+}
+
+#text-welcome {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+#text-name {
+  font-weight: bold;
+  color: #000000;
+  font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding-top: 4%;
+}
+
+li a {
+  display: block;
+  color: #555555;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #8b8b8b;
+  opacity: 80%;
+}
+
+.active {
+  color: #FF005C;
+  opacity: 80%;
+}
+
+
+
+
+
+
+
+
+
+/* INDEX PAGE */
+.flex-container {
+  display: flex;
+  background-color: aliceblue;
+  width: 100%;
+  height: 675px;
+}
+
+.index-left {
+ flex: 50%;
+}
+
+.index-small {
+  margin: 30px;
+  background-color: white;
+  border-style: outset;
+  padding: 100px;
+  height: 620px;
+}
+
+.index-small:hover {
+  background-color: rgb(243, 243, 243);
+  border-style: outset;
+  padding: 100px;
+}
+
+.index-small p {
+  text-align: center;
+  color: grey;
+  padding-bottom: 40px;
+}
+
+.index-small h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.index-right {
+ flex: 50%;
+}
+
+#index-pic {
+  padding: 20px;
+  width: 85%;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+#index-input[type=text] {
+  color: grey;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 13px;
+  border-style: solid;
+  border-color: rgb(194, 194, 194);
+  border-width: 3px;
+  background-color: white;
+  font-size: 15px;
+  
+}
+
+#index-input[type=password] {
+  color: grey;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 13px;
+  border-style: solid;
+  border-color: rgb(194, 194, 194);
+  border-width: 3px;
+  background-color: white;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* HOME PAGE*/
+.flex-container-home {
+  height: 100%;
+  width: 100%;
+}
+
+.cont-home-left p{
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+  text-align: center;
+  padding: 10%;
+}
+
+.cont-home-left img {
+  padding: 15%;
+  padding-bottom: 0%;
+  width: 90%;
+}
+
+#headings {
+  text-align: center;
+  font-size: 70px;
+  color: rgb(38, 42, 54);
+  padding: 12% 0% 0%;
+  margin-right: 3%;
+}
+
+
+
+
+
+
+/* /*  MAP PAGE  */
+.map-flex-container {
+  display: flex;
+  background-color: aliceblue;
+  width: 100%;
+  height: 675px;
+}
+
+/* Map Left Side */
+.cont-map-left {
+  flex: 50%;
+}
+
+/* Map Right Side */
+.cont-map-right {
+  flex: 50%;
+}
+
+#map-pic{
+  width: 85%;
+  height: 85%;
+  margin-left: 8%;
+}
+
+form {
+  display: flex;
+  padding: 20px 20px 0px;
+  margin-left: 70px;
+}
+
+.form1 {
+  flex: 10%;
+  margin-right: 5px;
+}
+
+.form2 {
+  flex: 10%;
+  margin-right: 5px;
+}
+
+.form3 {
+  flex: 5%;
+  margin-top: 2px;
+  margin-right: 5px;
+}
+
+#map-input[type=text] {
+  color: grey;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 13px;
+  border-style: solid;
+  border-color: rgb(194, 194, 194);
+  border-width: 3px;
+  background-color: white;
+  font-size: 15px;
+}
+
+#map-submit {
+  margin-top: 4%;
+	padding: 6px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+	border-radius: 13px;
+	background-color: #FF005C;
+  opacity: 80%;
+  font-weight: bold;
+}
+
+model-viewer {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLE */
+th {
+  background-color: #F0F0F0;
+}
+
+table, td, th {  
+  border: 1px solid black;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+th, td {
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+/* LIST PAGE */
+.cont-list {
+  margin: 42px 0px 0px ;
+  background-color: #D0E6EA;
+  margin-left: 38px;
+  width: 95%;
+  border-radius: 10px;
+  padding: 10px;
+  height: 540px;
+}
+
+.body-list{
+  background-color: #F0F0F0;
+}
+
+#delbut {
+  width: 50px;
+  margin-left: 70px;
+}
+
+#delbut img{
+  width: 70%;
+  height: 100%;
+}
+
+#divider {
+  margin: auto;
+  width: 100%;
+}
+
+
+#list-submit {
+	padding: 6px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+	border-radius: 13px;
+	background-color: #FF005C;
+  opacity: 80%;
+  font-weight: bold;
+  margin-left: 160px;
+}
+
+#list-submit:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #FF005C;
+  opacity: 70%;
+}
+
+
+
+
+
+
+
+
+/* MAP-RESIDENT PAGE */
+.map-right-mini {
+  width: 695px;
+  height: 650px;
+  margin-left: 14px;
+  margin-top: 10px;
+  border: 4px solid black;
+  border-radius: 10px;
+  background-color: #F0F0F0;
+}
+
+.popupcont{
+  margin-left: 1%;
+  margin-right: 1%;
+  border: 4px solid #000000;
+  height: 500px;
+}
+
+#userpopup {
+  width: 90%;
+  padding: 10% 25% 0%;
+  margin-left: 38px;
+}
+
+#peoplename {
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'SF UI Display';
+  font-size: 40px;
+}
+
+.btns {
+  display: flex;
+}
+#but1 {
+  padding: 1%;
+}
+
+#mprs-submit {
+	padding: 6px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+	border-radius: 13px;
+	background-color: #FF005C;
+  opacity: 80%;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-left: 120px;
+  margin-top: 80px;
+}
+
+#mprs-submit:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #FF005C;
+  opacity: 70%;
+}
